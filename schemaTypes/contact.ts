@@ -23,5 +23,18 @@ export default {
             title: 'Address',
             type: 'text',
         },
+        {
+            name: 'mapEmbedUrl',
+            title: 'Google Maps Embed URL',
+            type: 'url',
+            description: 'Paste the Google Maps embed URL here.',
+        },
+        {
+            name: 'mapInstructions',
+            title: 'Map Instructions',
+            type: 'array',
+            of: [{ type: 'block' }],
+            description: 'Add instructions related to finding the location.',
+        },
     ],
 };

@@ -23,5 +23,25 @@ export default {
             type: 'string',
             title: 'Button Link',
         },
+        {
+            name: 'images',
+            type: 'array',
+            title: 'Images',
+            of: [
+                {
+                    type: 'image',
+                    options: {
+                        hotspot: true,
+                    },
+                    fields: [
+                        {
+                            name: 'alt',
+                            type: 'string',
+                            title: 'Alternative text',
+                        },
+                    ],
+                },
+            ],
+        },
     ],
 };
