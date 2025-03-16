@@ -35,7 +35,7 @@ To get started with the project, follow these steps:
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/your-username/dodital-homestay-cms.git
+    git clone https://github.com/guptashashvat/dodital-homestay-cms.git
     cd dodital-homestay-cms
     ```
 
@@ -64,6 +64,10 @@ To get started with the project, follow these steps:
 - **Sanity Studio**: Use the Sanity Studio to manage and update content for the Dodital Homestay web application.
 - **Content Management**: Add, edit, and delete content for the homestay, rooms, and nearby attractions.
 - **Real-time Updates**: Content updates made in the Sanity Studio are reflected in the web application in real-time.
+
+## Related Project
+
+This CMS is used to manage content for the [Dodital Homestay](https://github.com/guptashashvat/dodital-homestay) web application. Please refer to the repository for more details on the web application.
 
 ## Contributing
 
